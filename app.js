@@ -1,6 +1,7 @@
-function greet(name){
-    console.log("hello " + name);
+function sum(a , b){
+    return a + b
 }
 
-greet('john');
-greet('mary');
+const value = sum (1,2);
+
+console.log(value)
